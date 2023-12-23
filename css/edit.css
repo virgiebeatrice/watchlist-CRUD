@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&family=Mochiy+Pop+One&family=Montserrat:wght@400;500;600&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f8dccd !important;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    background: #FBE4D8 !important;
+}
+.logo a{
+    text-decoration: none;
+
+}
+.logo__1{
+    width: 125px;
+} 
+
+.nav-item a {
+    color: #ffff;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-item a:hover {
+    color: #854f6c;
+}
+
+.nav-item button {
+    color: #ffff;
+    background-color: #190019;
+    padding: 0 0;
+    border-radius: 8px;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    font-weight: 600;
+}
+.nav-item button:hover {
+    background-color: #854f6c;
+}
+.nav-item button a:hover{
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.judul span {
+    font-size: 25px;
+    color: #854f6c;
+}
+.judul h1 {
+    display: inline-block;
+    color: #190019;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.proses {
+    display: flex;
+    justify-content: center;
+}
+.proses form {
+    width: 100%;
+}
+.proses label {
+    color: #190019;
+    font-size: 1rem;
+}
+
+.proses input, .proses select {
+    background-color: #444444;
+    border: #444444;
+    color: #fff;
+}
+.proses input::placeholder{
+    color: #fff ;
+}
+.proses input:focus,
+.proses select:focus {
+    background-color: #171717;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 2px #171717; 
+}
+
+footer {
+    background-color: #FBE4D8;
+}
+.wrap-footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1 {
+    text-align: center;
+    color: #190019;
+    width: 60%;
+}
+.footer-2 {
+    width: 40%;
+    text-align: center;
+}
+.footer-2 a{
+    text-decoration: none;
+}
+.footer-2 a i{
+    font-size: 30px;
+    margin: 30px 20px 0;
+}
+.copyright {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #190019;
+}
+.copyright p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .footer-1 {
+        font-size: 10px;
+    }
+    .footer-2 a i{
+        font-size: 20px;
+        margin: 0 10px ;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+
+
+}
